@@ -89,7 +89,7 @@ gcloud pubsub topics create audio.ingest
 ### 5.2 Create a push subscription
 
 ```bash
-gcloud pubsub subscriptions create audio.ingest-sub   --topic=audio.ingest   --push-endpoint=https://audio-worker-xyz-uc.a.run.app/pubsub   --push-auth-service-account=$(gcloud projects describe mtl-gcloud-pubsub-example --format='value(projectNumber)')-compute@developer.gserviceaccount.com
+gcloud pubsub subscriptions create audio.ingest-sub   --topic=audio.ingest   --push-endpoint=https://audio-worker-307014563925.europe-central2.run.app/pubsub   --push-auth-service-account=$(gcloud projects describe mtl-gcloud-pubsub-example --format='value(projectNumber)')-compute@developer.gserviceaccount.com
 ```
 
 ---
@@ -145,6 +145,12 @@ You should see a document under:
 ```text
 tracks / test_track.mp3
 ```
+
+### 6.7 Screenshots
+
+![GCS Bucket upload](demo/bucket.png)
+
+![Firestore document](demo/firestore.png)
 
 ---
 
