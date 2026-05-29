@@ -1,5 +1,7 @@
 # 🎧 Sample Audio Worker with Cloud Run + Pub/Sub + Firestore Example
 
+[![Built by MusicTech Lab](https://musictechlab.io/oss/build-by-musictechlab.io.svg)](https://musictechlab.io)
+
 This project demonstrates a **minimal event-driven pipeline** for analyzing audio files in Google Cloud.  
 When a file is uploaded to a Google Cloud Storage bucket, an event is sent via **Pub/Sub** to a **Cloud Run service**.  
 That service then processes metadata and stores it in **Firestore** for further use (e.g., fingerprinting, BPM detection, etc.).
@@ -114,7 +116,6 @@ gcloud projects add-iam-policy-binding mtl-gcloud-pubsub-example \
 ```bash
 gsutil cp demo/test_track.mp3 gs://mtl-gcloud-pubsub-example-audio-uploads/
 ```
-
 
 ### 6.4 Publish a test message
 
