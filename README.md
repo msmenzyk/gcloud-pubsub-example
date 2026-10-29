@@ -1,6 +1,5 @@
 # 🎧 Sample Audio Worker with Cloud Run + Pub/Sub + Firestore Example
 
-[![Built by MusicTech Lab](https://musictechlab.io/oss/build-by-musictechlab.io.svg)](https://musictechlab.io)
 
 This project demonstrates a **minimal event-driven pipeline** for analyzing audio files in Google Cloud.  
 When a file is uploaded to a Google Cloud Storage bucket, an event is sent via **Pub/Sub** to a **Cloud Run service**.  
@@ -185,11 +184,11 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
-  MusicTech Lab - Rockstars Developers dedicated to the Music Industry<br>
-  <a href="https://musictechlab.io">Website</a>
+  Mariusz Smenżyk - Rockstars Developers dedicated to the Music Industry<br>
+  <a href="https://mtl.dev">Website</a>
   <span> | </span>
-  <a href="https://linkedin.com/company/musictechlab">LinkedIn</a>
+  <a href="https://linkedin.com/company/Mariusz Smenżyk">LinkedIn</a>
   <span> | </span>
-  <a href="https://musictechlab.io/contact">Let's talk</a><br>
-  Crafted by <a href="https://musictechlab.io">musictechlab.io</a>
+  <a href="https://mtl.dev/contact">Let's talk</a><br>
+  Crafted by <a href="https://mtl.dev">mtl.dev</a>
 </div>

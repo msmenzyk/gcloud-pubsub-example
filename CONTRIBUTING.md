@@ -18,7 +18,7 @@ Thank you for your interest in contributing! We welcome all contributions — bu
 
 ## Reporting Issues
 
-- Use [GitHub Issues](https://github.com/musictechlab/mtl-gcloud-pubsub-example/issues) to report bugs or request features
+- Use [GitHub Issues](https://github.com/msmenzyk/mtl-gcloud-pubsub-example/issues) to report bugs or request features
 - Include steps to reproduce, expected behavior, and actual behavior
 
 ## Code of Conduct
@@ -27,4 +27,4 @@ This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.
 
 ## Questions?
 
-Reach out at **opensource@musictechlab.io**.
+Reach out at **mariusz@mtl.dev**.
